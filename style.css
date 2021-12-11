@@ -1,0 +1,71 @@
+ html{
+     background-image: url("https://learn.codeavengers.com/images/textures/light5.png")
+ }
+
+ h4 {
+    color:#5D153A;
+    }  
+    
+.menu{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+    font-size: 40px;
+    font-family: forte ;
+    font-weight: 0;
+    color: #CC6D66;
+}
+body{
+    margin: 0px;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 10px;;
+    font-family: sans-serif; 
+}
+.grid img{
+    border: 2px solid #F5C8E3;
+    border-radius: 40px;
+}
+
+.origami {
+    border-radius: 40px;
+    background-color: #E280B2;
+    padding: 30px;
+    margin: 25px;
+    width:304px;
+    font-family:'Franklin Gothic Medium';
+    background-image: url("https://learn.codeavengers.com/images/textures/light12.png");
+}
+
+.origami:hover{
+    transform: scale(1.11);
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: rgb(138, 19, 102);
+}
+
+.bodyimg{
+    position: relative;
+}
+
+.bodyimg p{
+    color: white;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+
+
+
